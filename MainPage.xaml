@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Apptitligt_NY.MainPage"
+             Shell.FlyoutBehavior="Disabled">
+
+    <Grid RowDefinitions="50, 50, *"
+      ColumnDefinitions="*, *"
+      Padding="10"
+      RowSpacing="0"
+      ColumnSpacing="10">
+
+        <!-- Centrera texten "Strömstad" i första raden -->
+        <Label Text="Strömstad"
+           Grid.Row="0"
+           Grid.Column="0"
+           Grid.ColumnSpan="2"
+           HorizontalOptions="Center"
+           VerticalOptions="Center"
+           HorizontalTextAlignment="Center"
+           VerticalTextAlignment="Center"
+           TextTransform="Uppercase"
+           FontFamily="Montserrat-SemiBold"
+           FontSize="30"/>
+
+        <!-- Placera och centrera pilikonen i andra raden -->
+        <Image Grid.Row="1"
+           Grid.Column="0"
+           Grid.ColumnSpan="2"
+           Source="down_arrow.png"
+           BackgroundColor="Red"
+           HorizontalOptions="Center"
+           VerticalOptions="Center" />
+ 
+
+
+
+
+
+    <!--<HorizontalStackLayout  Grid.Column="1" Grid.Row="1" Padding="0,2,4,0" HorizontalOptions="CenterAndExpand">
+            <VerticalStackLayout HorizontalOptions="CenterAndExpand" VerticalOptions="Center">-->  
+
+
+
+    </Grid>
+
+
+</ContentPage>
